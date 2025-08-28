@@ -1,0 +1,68 @@
+body {
+    margin: 0; /* Remove espaço padrão do body */
+    height: 100vh; /* Faz o fundo ocupar 100% da tela */
+    
+    /* Define a imagem */
+    background-image: url('Images/background.png'); /* Caminho para a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: repeat; /* Evita repetição */
+}
+.linha{
+    border:0;
+    border-top: 4px solid rgb(141, 34, 34);
+    background-color: rgb(112, 56, 56);
+}
+@media (min-width: 992px) {
+  .container { flex-direction: row; }
+  .sidebar { display: block; }
+}
+@media (min-width: 1200px) {
+  .container { max-width: 1140px; margin: 0 auto; }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#SiteBanner{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 50%;
+    height:50%;
+}
+ .menu {
+    top: 0;
+    left: 0;
+      width: 100%;             /* ocupa toda a largura */
+      background-color: #33312e;  /* cor de fundo (cinza escuro) */
+      padding: 15px 0;         /* altura do retângulo */
+      text-align: center;      /* centraliza os itens */
+    }
+
+    /* Links do menu */
+    .menu a {
+      color: white;            /* cor do texto */
+      text-decoration: none;   /* remove sublinhado */
+      margin: 20px;          /* espaçamento entre links */
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Efeito ao passar o mouse */
+    .menu a:hover {
+      color: rgb(46, 44, 40);
+    }
+  h1{
+    color: white;
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+  }
+  p{
+    color: rgb(228, 137, 19);
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+  }
+  
